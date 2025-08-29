@@ -1278,7 +1278,7 @@ section,
 
 .skills .skill-item .progress {
   height: 8px;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background-color: color-mix(in srgb, var(--default-color), var(--background-color) 90%);
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -1290,7 +1290,28 @@ section,
   width: 0;
   height: 100%;
   border-radius: 20px;
+  position: relative;
+  overflow: visible;
 }
+
+/* Progress bar animation */
+@keyframes progress-animation {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Ensure progress bars are visible on page load */
+.progress-bar[aria-valuenow] {
+  width: 0;
+  animation: none;
+  transition: width 1.5s ease-in-out;
+}
+
+/* Set specific widths based on aria-valuenow */
+.progress-bar[aria-valuenow="85"] { width: 85%; }
+.progress-bar[aria-valuenow="80"] { width: 80%; }
+.progress-bar[aria-valuenow="75"] { width: 75%; }
+.progress-bar[aria-valuenow="70"] { width: 70%; }
 
 .skills .skill-item .skill-tooltip {
   font-size: 14px;

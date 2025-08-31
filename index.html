@@ -1,925 +1,1408 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Angel Eduardo Lugo López - Portafolio</title>
+    <meta
+      name="description"
+      content="Portafolio profesional de Angel Eduardo Lugo López - Desarrollador web"
+    />
+    <meta
+      name="keywords"
+      content="desarrollo web, programación, ingeniería de software, bases de datos, HTML, CSS, JavaScript, Python, Java, C#, SQL, MongoDB, Redis"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Angel Eduardo Lugo López - Portafolio</title>
-  <meta name="description" content="Portafolio profesional de Angel Eduardo Lugo López - Desarrollador web">
-  <meta name="keywords" content="desarrollo web, programación, ingeniería de software, bases de datos, HTML, CSS, JavaScript, Python, Java, C#, SQL, MongoDB, Redis">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: SnapFolio
   * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
   * Updated: Jul 21 2025 with Bootstrap v5.3.7
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header
+      id="header"
+      class="header dark-background d-flex flex-column justify-content-center"
+    >
+      <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+      <div class="header-container d-flex flex-column align-items-start">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li>
+              <a href="#hero" class="active"
+                ><i class="bi bi-house navicon"></i>Home</a
+              >
+            </li>
+            <li>
+              <a href="#about"><i class="bi bi-person navicon"></i> About</a>
+            </li>
+            <li>
+              <a href="#resume"
+                ><i class="bi bi-file-earmark-text navicon"></i> Resume</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio"
+                ><i class="bi bi-images navicon"></i> Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#services"
+                ><i class="bi bi-hdd-stack navicon"></i> Services</a
+              >
+            </li>
+            <!-- 
+            <li class="dropdown">
+              <a href="#"
+                ><i class="bi bi-menu-button navicon"></i>
+                <span>Dropdown</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+               
 
-    <div class="header-container d-flex flex-column align-items-start">
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="social-links text-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
-    </div>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="background-elements">
-        <div class="bg-circle circle-1"></div>
-        <div class="bg-circle circle-2"></div>
-      </div>
-
-      <div class="hero-content">
-
-        <div class="container">
-          <div class="row align-items-center">
-
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-              <div class="hero-text">
-                <h1>Angel <span class="accent-text">Lugo</span></h1>
-                <h2>Desarrollador web</h2>
-                <p class="lead">Apasionado por <span class="typed" data-typed-items="Desarrollo Web, Soluciones Digitales, Programación, Bases de Datos"></span></p>
-                <p class="description">Comprometido con el aprendizaje continuo y la mejora constante. Buscando una oportunidad para aplicar y seguir desarrollando mis habilidades.</p>
-
-                <div class="hero-actions">
-                  <a href="#portfolio" class="btn btn-primary">Ver Mi Trabajo</a>
-                  <a href="#contact" class="btn btn-outline">Contáctame</a>
-                </div>
-
-                <div class="social-links">
-                  <a href="https://github.com/AngelLugo-Dev" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                  <a href="https://www.linkedin.com/in/angel-eduardo-lugo-l%C3%B3pez" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-              <div class="hero-visual">
-                <div class="profile-container">
-                  <div class="profile-background"></div>
-                  <img src="assets/img/profile/profile-2.webp" alt="Alexander Chen" class="profile-image">
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
-            <div class="profile-card">
-              <div class="profile-header">
-                <div class="profile-image">
-                  <img src="assets/img/profile/profile-square-3.webp" alt="Profile Image" class="img-fluid">
-                </div>
-                <div class="profile-badge">
-                  <i class="bi bi-check-circle-fill"></i>
-                </div>
-              </div>
-
-              <div class="profile-content">
-                <h3>Angel Eduardo Lugo López</h3>
-                <p class="profession">Desarrollador web</p>
-
-                <div class="contact-links">
-                  <a href="mailto:lugoangel938@gmail.com" class="contact-item">
-                    <i class="bi bi-envelope"></i>
-                    lugoangel938@gmail.com
-                  </a>
-                  <a href="tel:+527721482182" class="contact-item">
-                    <i class="bi bi-telephone"></i>
-                    +52 772 148 2182
-                  </a>
-                  <a href="#" class="contact-item">
-                    <i class="bi bi-geo-alt"></i>
-                    Hidalgo, Mexico
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
-            <div class="about-content">
-              <div class="section-header">
-                <span class="badge-text">Sobre Mí</span>
-                <h2>Apasionado por las Soluciones Digitales</h2>
-              </div>
-
-              <div class="description">
-                <p>Desarrollador web apasionado por la creación de soluciones digitales modernas, con enfoque en el desarrollo web. Cuento con conocimientos en diversos lenguajes de programación y bases de datos.</p>
-                <p>Comprometido con el aprendizaje continuo y la mejora constante. Buscando una oportunidad para aplicar y seguir desarrollando mis habilidades en un entorno profesional desafiante.</p>
-              </div>
-
-              <div class="stats-grid">
-                <div class="stat-item">
-                  <div class="stat-number">3+</div>
-                  <div class="stat-label">Años de Estudio</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">5+</div>
-                  <div class="stat-label">Lenguajes</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">4+</div>
-                  <div class="stat-label">Bases de Datos</div>
-                </div>
-              </div>
-
-              <div class="details-grid">
-                <div class="detail-row">
-                  <div class="detail-item">
-                    <span class="detail-label">Especialización</span>
-                    <span class="detail-value">Desarrollo Web y Bases de Datos</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Nivel de Experiencia</span>
-                    <span class="detail-value">Estudiante Avanzado</span>
-                  </div>
-                </div>
-                <div class="detail-row">
-                  <div class="detail-item">
-                    <span class="detail-label">Educación</span>
-                    <span class="detail-value">Ingeniería en Sistemas, ITP</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Idiomas</span>
-                    <span class="detail-value">Español (Nativo), Inglés</span>
-                  </div>
-                </div>
-              </div>
-
-              
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Cuento con habilidades en diferentes herramientas de desarrollo web</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
-              <h3>Front-end Development</h3>
-              <div class="skills-animation">
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>HTML/CSS</h4>
-                    <span class="skill-percentage">95%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Expert level knowledge of semantic HTML5 and modern CSS3 techniques</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>JavaScript</h4>
-                    <span class="skill-percentage">85%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Strong proficiency in ES6+, DOM manipulation, and modern frameworks</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>React</h4>
-                    <span class="skill-percentage">80%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Experience with React hooks, state management, and component architecture</div>
-                </div>
-              </div>
-            </div><!-- End Frontend Skills -->
-          </div>
-
-          <div class="col-lg-6">
-            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
-              <h3>Back-end Development</h3>
-              <div class="skills-animation">
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>Node.js</h4>
-                    <span class="skill-percentage">75%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Server-side JavaScript development with Express and REST APIs</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>Python</h4>
-                    <span class="skill-percentage">70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Progreso de Gestión de Proyectos" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Python development with Django and data analysis tools</div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h4>SQL</h4>
-                    <span class="skill-percentage">65%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <div class="skill-tooltip">Database design, optimization, and complex queries</div>
-                </div>
-              </div>
-            </div><!-- End Backend Skills -->
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Experiencia y Educación</h2>
-        <p>Mi trayectoria académica y experiencia profesional en el desarrollo de soluciones tecnológicas.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <!-- Left column with summary and contact -->
-          <div class="col-lg-4">
-            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
-              <div class="profile-img mb-4">
-                <img src="assets/img/profile/profile-square-2.webp" alt="Profile" class="img-fluid rounded">
-              </div>
-
-              <h3>Resumen Profesional</h3>
-              <p>Desarrollador web apasionado por la creación de soluciones digitales modernas, con enfoque en el desarrollo web. Experiencia en trabajo en equipo y desarrollo de proyectos tecnológicos.</p>
-
-              <h3>Información de Contacto</h3>
-              <ul class="contact-info list-unstyled">
-                <li><i class="bi bi-geo-alt"></i> Hidalgo, México</li>
-                <li><i class="bi bi-envelope"></i> lugoangel938@gmail.com</li>
-                <li><i class="bi bi-phone"></i> +52 772 148 2182</li>
-                <li><i class="bi bi-linkedin"></i> linkedin.com/in/angel-eduardo-lugo-lópez</li>
-                <li><i class="bi bi-github"></i> github.com/AngelLugo-Dev</li>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Dropdown</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
               </ul>
+              -->
+            </li>
+            <li>
+              <a href="#contact"
+                ><i class="bi bi-envelope navicon"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-              <div class="skills-animation mt-4">
-                <h3>Habilidades Técnicas</h3>
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Desarrollo Web (HTML, CSS, JavaScript)</span>
-                    <span>85%</span>
+        <div class="social-links text-center"></div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="background-elements">
+          <div class="bg-circle circle-1"></div>
+          <div class="bg-circle circle-2"></div>
+        </div>
+
+        <div class="hero-content">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                <div class="hero-text">
+                  <h1>Angel <span class="accent-text">Lugo</span></h1>
+                  <h2>Desarrollador web</h2>
+                  <p class="lead">
+                    Apasionado por
+                    <span
+                      class="typed"
+                      data-typed-items="Desarrollo Web, Soluciones Digitales, Programación, Bases de Datos"
+                    ></span>
+                  </p>
+                  <p class="description">
+                    Comprometido con el aprendizaje continuo y la mejora
+                    constante. Buscando una oportunidad para aplicar y seguir
+                    desarrollando mis habilidades.
+                  </p>
+
+                  <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary"
+                      >Ver Mi Trabajo</a
+                    >
+                    <a href="#contact" class="btn btn-outline">Contáctame</a>
                   </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Progreso de Desarrollo Web" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+
+                  <div class="social-links">
+                    <a
+                      href="https://github.com/AngelLugo-Dev"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/angel-eduardo-lugo-l%C3%B3pez"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
                   </div>
                 </div>
+              </div>
 
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Lenguajes de Programación (Java, Python, C#)</span>
-                    <span>80%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Progreso de Lenguajes de Programación" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Bases de Datos (SQL, MongoDB, Redis)</span>
-                    <span>75%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Progreso de Bases de Datos" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                <div class="hero-visual">
+                  <div class="profile-container">
+                    <div class="profile-background"></div>
+                    <img
+                      src="assets/img/profile/profile-2.webp"
+                      alt="Alexander Chen"
+                      class="profile-image"
+                    />
                   </div>
                 </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Gestión de Proyectos</span>
-                    <span>70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Progreso de Gestión de Proyectos" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right column with experience and education -->
-          <div class="col-lg-8 ps-4 ps-lg-5">
-            <!-- Experience Section -->
-            <div class="resume-section" data-aos="fade-up">
-              <h3><i class="bi bi-briefcase me-2"></i>Experiencia Profesional</h3>
-
-              <div class="resume-item">
-                <h4>Asesor técnico de desarrollo</h4>
-                <h5>Diciembre 2024</h5>
-                <p><em>1er Seminario de Ciencia y Tecnología ITP, Hidalgo, México</em></p>
-                <ul>
-                  <li>Brindé soporte técnico en desarrollo durante el evento</li>
-                  <li>Apoyé en la implementación de soluciones tecnológicas</li>
-                  <li>Colaboré en la revisión y presentación del proyecto</li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>Coordinador general/Desarrollador</h4>
-                <h5>Enero 2025 - Junio 2025</h5>
-                <p><em>Sistema de monitoreo inteligente (SCHEME), Hidalgo, México</em></p>
-                <ul>
-                  <li>Dirigí un equipo multidisciplinario encargado del desarrollo del sistema</li>
-                  <li>Trabajé en el desarrollo del código base y la integración de funciones</li>
-                  <li>Asigné tareas y aseguré la comunicación efectiva entre las distintas áreas</li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>Ingeniería en Sistemas</h4>
-                <h5>Agosto 2021 - Diciembre 2025</h5>
-                <p><em>Instituto Tecnológico de Pachuca, Hidalgo, México</em></p>
-                <ul>
-                  <li>Diseñar y desarrollar soluciones web modernas</li>
-                  <li>Aplicar conocimientos de programación, bases de datos y arquitectura de software</li>
-                  <li>Utilizar marcos de trabajo para la gestión de proyectos y desarrollo trabajando en equipo</li>
-                  <li>Integrar servicios backend y APIs usando lenguajes como C#</li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>Técnico en programación</h4>
-                <h5>Agosto 2017 - Septiembre 2021</h5>
-                <p><em>Centro de Bachillerato Industrial y de Servicios, Actopan, Hidalgo</em></p>
-                <ul>
-                  <li>Desarrollar aplicaciones web básicas e intermedias utilizando lenguajes como HTML, CSS, JavaScript y PHP</li>
-                  <li>Aplicar principios de lógica de programación y estructuras de control para resolver problemas</li>
-                  <li>Utilizar marcos de trabajo para la gestión de proyectos</li>
-                  <li>Diseñar y manipular bases de datos</li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Education Section -->
-            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
-              <h3><i class="bi bi-mortarboard me-2"></i>Educación</h3>
-
-              <div class="resume-item">
-                <h4>Ingeniería en Sistemas Computacionales</h4>
-                <h5>Agosto 2021 - Diciembre 2025</h5>
-                <p class="company"><i class="bi bi-building"></i> Instituto Tecnológico de Pachuca</p>
-                <p>Enfoque en desarrollo de software y gestión de proyectos tecnológicos.</p>
-              </div>
-
-              <div class="resume-item">
-                <h4>1er Seminario de Ciencia y Tecnología ITP</h4>
-                <h5>2024</h5>
-                <p class="company"><i class="bi bi-mortarboard me-2"></i>Instituto Tecnológico de Pachuca</p>
-                <p>Participación como asesor técnico en desarrollo.</p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Técnico en Programación</h4>
-                <h5>Agosto 2017 - Septiembre 2021</h5>
-                <p class="company"><i class="bi bi-building"></i> Centro de Bachillerato Industrial y de Servicios, Actopan</p>
-                <p>Especializado en desarrollo de aplicaciones web y bases de datos.</p>
-              </div>
-            </div>
-
-            <!-- Certifications Section -->
-            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
-              <h3><i class="bi bi-award me-2"></i>Certificaciones</h3>
-
-              <div class="resume-item">
-                <h4>SCHEME - Sistema de Monitoreo Inteligente</h4>
-                <h5>2025</h5>
-                <p class="company"><i class="bi bi-code-square me-2"></i>Proyecto Académico</p>
-                <p>Coordinación y desarrollo de sistema de monitoreo.</p>
-              </div>
-
-              <div class="resume-item">
-                <h4>1er Lugar en Hackathon de Innovación Tecnológica</h4>
-                <h5>2024</h5>
-                <p class="company"><i class="bi bi-trophy me-2"></i>Instituto Tecnológico de Pachuca</p>
-                <p>Desarrollo de solución innovadora para gestión de recursos educativos.</p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Participación en Feria de Ciencias</h4>
-                <h5>2023</h5>
-                <p class="company"><i class="bi bi-award me-2"></i>CBIS Actopan</p>
-                <p>Presentación de proyecto de desarrollo de software educativo.</p>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Hero Section -->
 
-      </div>
-
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
-            <div class="col-lg-3 filter-sidebar">
-              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
-                <ul class="portfolio-filters isotope-filters">
-                  <li data-filter="*" class="filter-active">All Projects</li>
-                  <li data-filter=".filter-photography">Photography</li>
-                  <li data-filter=".filter-design">Design</li>
-                  <li data-filter=".filter-automotive">Automotive</li>
-                  <li data-filter=".filter-nature">Nature</li>
-                </ul>
+            <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+              <div class="profile-card">
+                <div class="profile-header">
+                  <div class="profile-image">
+                    <img
+                      src="assets/img/profile/profile-square-3.webp"
+                      alt="Profile Image"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="profile-badge">
+                    <i class="bi bi-check-circle-fill"></i>
+                  </div>
+                </div>
+
+                <div class="profile-content">
+                  <h3>Angel Eduardo Lugo López</h3>
+                  <p class="profession">Desarrollador web</p>
+
+                  <div class="contact-links">
+                    <a
+                      href="mailto:lugoangel938@gmail.com"
+                      class="contact-item"
+                    >
+                      <i class="bi bi-envelope"></i>
+                      lugoangel938@gmail.com
+                    </a>
+                    <a href="tel:+527721482182" class="contact-item">
+                      <i class="bi bi-telephone"></i>
+                      +52 772 148 2182
+                    </a>
+                    <a href="#" class="contact-item">
+                      <i class="bi bi-geo-alt"></i>
+                      Hidalgo, Mexico
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-9">
-              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+              <div class="about-content">
+                <div class="section-header">
+                  <span class="badge-text">Sobre Mí</span>
+                  <h2>Apasionado por las Soluciones Digitales</h2>
+                </div>
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-portrait-1.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Photography</span>
-                        <h4>Capturing Moments</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-portrait-1.webp" class="glightbox" title="Capturing Moments"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                <div class="description">
+                  <p>
+                    Desarrollador web apasionado por la creación de soluciones
+                    digitales modernas, con enfoque en el desarrollo web. Cuento
+                    con conocimientos en diversos lenguajes de programación y
+                    bases de datos.
+                  </p>
+                  <p>
+                    Comprometido con el aprendizaje continuo y la mejora
+                    constante. Buscando una oportunidad para aplicar y seguir
+                    desarrollando mis habilidades en un entorno profesional
+                    desafiante.
+                  </p>
+                </div>
+
+                <div class="stats-grid">
+                  <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Años de Estudio</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Lenguajes</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Bases de Datos</div>
+                  </div>
+                </div>
+
+                <div class="details-grid">
+                  <div class="detail-row">
+                    <div class="detail-item">
+                      <span class="detail-label">Especialización</span>
+                      <span class="detail-value"
+                        >Desarrollo Web y Bases de Datos</span
+                      >
+                    </div>
+                    <div class="detail-item">
+                      <span class="detail-label">Nivel de Experiencia</span>
+                      <span class="detail-value">Estudiante Avanzado</span>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                    <div class="detail-item">
+                      <span class="detail-label">Educación</span>
+                      <span class="detail-value"
+                        >Ingeniería en Sistemas, ITP</span
+                      >
+                    </div>
+                    <div class="detail-item">
+                      <span class="detail-label">Idiomas</span>
+                      <span class="detail-value">Español (Nativo), Inglés</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Skills</h2>
+          <p>
+            Cuento con habilidades en diferentes herramientas de desarrollo web
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-6">
+              <div
+                class="skills-category"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Front-end Development</h3>
+                <div class="skills-animation">
+                  <div class="skill-item">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4>HTML/CSS</h4>
+                      <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      Expert level knowledge of semantic HTML5 and modern CSS3
+                      techniques
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4>JavaScript</h4>
+                      <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      Strong proficiency in ES6+, DOM manipulation, and modern
+                      frameworks
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4>Astro</h4>
+                      <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      Experience with React hooks, state management, and
+                      component architecture
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Frontend Skills -->
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="skills-category"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <h3>Back-end Development</h3>
+                <div class="skills-animation">
+                  <div class="skill-item">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4>Java</h4>
+                      <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      Server-side JavaScript development with Express and REST
+                      APIs
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4>Python</h4>
+                      <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Progreso de Gestión de Proyectos"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      Python development with Django and data analysis tools
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4>SQL</h4>
+                      <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="65"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      Database design, optimization, and complex queries
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Backend Skills -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Skills Section -->
+
+      <!-- Resume Section -->
+      <section id="resume" class="resume section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Experiencia y Educación</h2>
+          <p>
+            Mi trayectoria académica y experiencia profesional en el desarrollo
+            de soluciones tecnológicas.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <!-- Left column with summary and contact -->
+            <div class="col-lg-4">
+              <div
+                class="resume-side"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <div class="profile-img mb-4">
+                  <img
+                    src="assets/img/profile/profile-square-2.webp"
+                    alt="Profile"
+                    class="img-fluid rounded"
+                  />
+                </div>
+
+                <h3>Resumen Profesional</h3>
+                <p>
+                  Desarrollador web apasionado por la creación de soluciones
+                  digitales modernas, con enfoque en el desarrollo web.
+                  Experiencia en trabajo en equipo y desarrollo de proyectos
+                  tecnológicos.
+                </p>
+
+                <h3>Información de Contacto</h3>
+                <ul class="contact-info list-unstyled">
+                  <li><i class="bi bi-geo-alt"></i> Hidalgo, México</li>
+                  <li><i class="bi bi-envelope"></i> lugoangel938@gmail.com</li>
+                  <li><i class="bi bi-phone"></i> +52 772 148 2182</li>
+                  <li>
+                    <i class="bi bi-linkedin"></i>
+                    linkedin.com/in/angel-eduardo-lugo-lópez
+                  </li>
+                  <li><i class="bi bi-github"></i> github.com/AngelLugo-Dev</li>
+                </ul>
+
+                <div class="skills-animation mt-4">
+                  <h3>Habilidades Técnicas</h3>
+                  <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                      <span>Desarrollo Web (HTML, CSS, JavaScript)</span>
+                      <span>85%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Progreso de Desarrollo Web"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                      <span>Lenguajes de Programación (Java, Python, C#)</span>
+                      <span>80%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Progreso de Lenguajes de Programación"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                      <span>Bases de Datos (SQL, MongoDB, Redis)</span>
+                      <span>75%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Progreso de Bases de Datos"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="d-flex justify-content-between">
+                      <span>Gestión de Proyectos</span>
+                      <span>70%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Progreso de Gestión de Proyectos"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right column with experience and education -->
+            <div class="col-lg-8 ps-4 ps-lg-5">
+              <!-- Experience Section -->
+              <div class="resume-section" data-aos="fade-up">
+                <h3>
+                  <i class="bi bi-briefcase me-2"></i>Experiencia Profesional
+                </h3>
+
+                <div class="resume-item">
+                  <h4>Asesor técnico de desarrollo</h4>
+                  <h5>Diciembre 2024</h5>
+                  <p>
+                    <em
+                      >1er Seminario de Ciencia y Tecnología ITP, Hidalgo,
+                      México</em
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Brindé soporte técnico en desarrollo durante el evento
+                    </li>
+                    <li>
+                      Apoyé en la implementación de soluciones tecnológicas
+                    </li>
+                    <li>Colaboré en la revisión y presentación del proyecto</li>
+                  </ul>
+                </div>
+
+                <div class="resume-item">
+                  <h4>Coordinador general/Desarrollador</h4>
+                  <h5>Enero 2025 - Junio 2025</h5>
+                  <p>
+                    <em
+                      >Sistema de monitoreo inteligente (SCHEME), Hidalgo,
+                      México</em
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Dirigí un equipo multidisciplinario encargado del
+                      desarrollo del sistema
+                    </li>
+                    <li>
+                      Trabajé en el desarrollo del código base y la integración
+                      de funciones
+                    </li>
+                    <li>
+                      Asigné tareas y aseguré la comunicación efectiva entre las
+                      distintas áreas
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="resume-item">
+                  <h4>Ingeniería en Sistemas</h4>
+                  <h5>Agosto 2021 - Diciembre 2025</h5>
+                  <p>
+                    <em>Instituto Tecnológico de Pachuca, Hidalgo, México</em>
+                  </p>
+                  <ul>
+                    <li>Diseñar y desarrollar soluciones web modernas</li>
+                    <li>
+                      Aplicar conocimientos de programación, bases de datos y
+                      arquitectura de software
+                    </li>
+                    <li>
+                      Utilizar marcos de trabajo para la gestión de proyectos y
+                      desarrollo trabajando en equipo
+                    </li>
+                    <li>
+                      Integrar servicios backend y APIs usando lenguajes como C#
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="resume-item">
+                  <h4>Técnico en programación</h4>
+                  <h5>Agosto 2017 - Septiembre 2021</h5>
+                  <p>
+                    <em
+                      >Centro de Bachillerato Industrial y de Servicios,
+                      Actopan, Hidalgo</em
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Desarrollar aplicaciones web básicas e intermedias
+                      utilizando lenguajes como HTML, CSS, JavaScript y PHP
+                    </li>
+                    <li>
+                      Aplicar principios de lógica de programación y estructuras
+                      de control para resolver problemas
+                    </li>
+                    <li>
+                      Utilizar marcos de trabajo para la gestión de proyectos
+                    </li>
+                    <li>Diseñar y manipular bases de datos</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Education Section -->
+              <div
+                class="resume-section"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <h3><i class="bi bi-mortarboard me-2"></i>Educación</h3>
+
+                <div class="resume-item">
+                  <h4>Ingeniería en Sistemas Computacionales</h4>
+                  <h5>Agosto 2021 - Diciembre 2025</h5>
+                  <p class="company">
+                    <i class="bi bi-building"></i> Instituto Tecnológico de
+                    Pachuca
+                  </p>
+                  <p>
+                    Enfoque en desarrollo de software y gestión de proyectos
+                    tecnológicos.
+                  </p>
+                </div>
+
+                <div class="resume-item">
+                  <h4>1er Seminario de Ciencia y Tecnología ITP</h4>
+                  <h5>2024</h5>
+                  <p class="company">
+                    <i class="bi bi-mortarboard me-2"></i>Instituto Tecnológico
+                    de Pachuca
+                  </p>
+                  <p>Participación como asesor técnico en desarrollo.</p>
+                </div>
+
+                <div class="resume-item">
+                  <h4>Técnico en Programación</h4>
+                  <h5>Agosto 2017 - Septiembre 2021</h5>
+                  <p class="company">
+                    <i class="bi bi-building"></i> Centro de Bachillerato
+                    Industrial y de Servicios, Actopan
+                  </p>
+                  <p>
+                    Especializado en desarrollo de aplicaciones web y bases de
+                    datos.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Certifications Section -->
+              <div
+                class="resume-section"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3><i class="bi bi-award me-2"></i>Certificaciones</h3>
+
+                <div class="resume-item">
+                  <h4>SCHEME - Sistema de Monitoreo Inteligente</h4>
+                  <h5>2025</h5>
+                  <p class="company">
+                    <i class="bi bi-code-square me-2"></i>Proyecto Académico
+                  </p>
+                  <p>Coordinación y desarrollo de sistema de monitoreo.</p>
+                </div>
+
+                <div class="resume-item">
+                  <h4>1er Lugar en Hackathon de Innovación Tecnológica</h4>
+                  <h5>2024</h5>
+                  <p class="company">
+                    <i class="bi bi-trophy me-2"></i>Instituto Tecnológico de
+                    Pachuca
+                  </p>
+                  <p>
+                    Desarrollo de solución innovadora para gestión de recursos
+                    educativos.
+                  </p>
+                </div>
+
+                <div class="resume-item">
+                  <h4>Participación en Feria de Ciencias</h4>
+                  <h5>2023</h5>
+                  <p class="company">
+                    <i class="bi bi-award me-2"></i>CBIS Actopan
+                  </p>
+                  <p>
+                    Presentación de proyecto de desarrollo de software
+                    educativo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Resume Section -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <div class="row">
+              <div class="col-lg-3 filter-sidebar">
+                <div
+                  class="filters-wrapper"
+                  data-aos="fade-right"
+                  data-aos-delay="150"
+                >
+                  <ul class="portfolio-filters isotope-filters">
+                    <li data-filter="*" class="filter-active">All Projects</li>
+                    <li data-filter=".filter-photography">Photography</li>
+                    <li data-filter=".filter-design">Design</li>
+                    <li data-filter=".filter-automotive">Automotive</li>
+                    <li data-filter=".filter-nature">Nature</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-9">
+                <div
+                  class="row gy-4 portfolio-container isotope-container"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography"
+                  >
+                    <div class="portfolio-wrap">
+                      <img
+                        src="assets/img/portfolio/portfolio-portrait-1.webp"
+                        class="img-fluid"
+                        alt="Portfolio Image"
+                        loading="lazy"
+                      />
+                      <div class="portfolio-info">
+                        <div class="content">
+                          <span class="category">Photography</span>
+                          <h4>Capturing Moments</h4>
+                          <div class="portfolio-links">
+                            <a
+                              href="assets/img/portfolio/portfolio-portrait-1.webp"
+                              class="glightbox"
+                              title="Capturing Moments"
+                              ><i class="bi bi-plus-lg"></i
+                            ></a>
+                            <a
+                              href="portfolio-details.html"
+                              title="More Details"
+                              ><i class="bi bi-arrow-right"></i
+                            ></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                  <!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Web Design</span>
-                        <h4>Woodcraft Design</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox" title="Woodcraft Design"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                  <div
+                    class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design"
+                  >
+                    <div class="portfolio-wrap">
+                      <img
+                        src="assets/img/portfolio/portfolio-2.webp"
+                        class="img-fluid"
+                        alt="Portfolio Image"
+                        loading="lazy"
+                      />
+                      <div class="portfolio-info">
+                        <div class="content">
+                          <span class="category">Web Design</span>
+                          <h4>Woodcraft Design</h4>
+                          <div class="portfolio-links">
+                            <a
+                              href="assets/img/portfolio/portfolio-2.webp"
+                              class="glightbox"
+                              title="Woodcraft Design"
+                              ><i class="bi bi-plus-lg"></i
+                            ></a>
+                            <a
+                              href="portfolio-details.html"
+                              title="More Details"
+                              ><i class="bi bi-arrow-right"></i
+                            ></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                  <!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automotive">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-portrait-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Automotive</span>
-                        <h4>Classic Beauty</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-portrait-2.webp" class="glightbox" title="Classic Beauty"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                  <div
+                    class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automotive"
+                  >
+                    <div class="portfolio-wrap">
+                      <img
+                        src="assets/img/portfolio/portfolio-portrait-2.webp"
+                        class="img-fluid"
+                        alt="Portfolio Image"
+                        loading="lazy"
+                      />
+                      <div class="portfolio-info">
+                        <div class="content">
+                          <span class="category">Automotive</span>
+                          <h4>Classic Beauty</h4>
+                          <div class="portfolio-links">
+                            <a
+                              href="assets/img/portfolio/portfolio-portrait-2.webp"
+                              class="glightbox"
+                              title="Classic Beauty"
+                              ><i class="bi bi-plus-lg"></i
+                            ></a>
+                            <a
+                              href="portfolio-details.html"
+                              title="More Details"
+                              ><i class="bi bi-arrow-right"></i
+                            ></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                  <!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-portrait-4.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Nature</span>
-                        <h4>Natural Growth</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-portrait-4.webp" class="glightbox" title="Natural Growth"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                  <div
+                    class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature"
+                  >
+                    <div class="portfolio-wrap">
+                      <img
+                        src="assets/img/portfolio/portfolio-portrait-4.webp"
+                        class="img-fluid"
+                        alt="Portfolio Image"
+                        loading="lazy"
+                      />
+                      <div class="portfolio-info">
+                        <div class="content">
+                          <span class="category">Nature</span>
+                          <h4>Natural Growth</h4>
+                          <div class="portfolio-links">
+                            <a
+                              href="assets/img/portfolio/portfolio-portrait-4.webp"
+                              class="glightbox"
+                              title="Natural Growth"
+                              ><i class="bi bi-plus-lg"></i
+                            ></a>
+                            <a
+                              href="portfolio-details.html"
+                              title="More Details"
+                              ><i class="bi bi-arrow-right"></i
+                            ></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                  <!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Photography</span>
-                        <h4>Urban Stories</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox" title="Urban Stories"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                  <div
+                    class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography"
+                  >
+                    <div class="portfolio-wrap">
+                      <img
+                        src="assets/img/portfolio/portfolio-5.webp"
+                        class="img-fluid"
+                        alt="Portfolio Image"
+                        loading="lazy"
+                      />
+                      <div class="portfolio-info">
+                        <div class="content">
+                          <span class="category">Photography</span>
+                          <h4>Urban Stories</h4>
+                          <div class="portfolio-links">
+                            <a
+                              href="assets/img/portfolio/portfolio-5.webp"
+                              class="glightbox"
+                              title="Urban Stories"
+                              ><i class="bi bi-plus-lg"></i
+                            ></a>
+                            <a
+                              href="portfolio-details.html"
+                              title="More Details"
+                              ><i class="bi bi-arrow-right"></i
+                            ></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                  <!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-6.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Web Design</span>
-                        <h4>Digital Experience</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox" title="Digital Experience"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                  <div
+                    class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design"
+                  >
+                    <div class="portfolio-wrap">
+                      <img
+                        src="assets/img/portfolio/portfolio-6.webp"
+                        class="img-fluid"
+                        alt="Portfolio Image"
+                        loading="lazy"
+                      />
+                      <div class="portfolio-info">
+                        <div class="content">
+                          <span class="category">Web Design</span>
+                          <h4>Digital Experience</h4>
+                          <div class="portfolio-links">
+                            <a
+                              href="assets/img/portfolio/portfolio-6.webp"
+                              class="glightbox"
+                              title="Digital Experience"
+                              ><i class="bi bi-plus-lg"></i
+                            ></a>
+                            <a
+                              href="portfolio-details.html"
+                              title="More Details"
+                              ><i class="bi bi-arrow-right"></i
+                            ></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                  <!-- End Portfolio Item -->
+                </div>
+                <!-- End Portfolio Container -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
 
-              </div><!-- End Portfolio Container -->
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Servicios</h2>
+          <p>
+            Soluciones profesionales de desarrollo de software a medida para tus
+            necesidades tecnológicas
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-header">
+            <div class="row align-items-center">
+              <div class="col-lg-8 col-md-12">
+                <div class="service-intro">
+                  <h2 class="service-heading">
+                    <div>Soluciones de desarrollo</div>
+                    <div><span>profesionales en Java</span></div>
+                  </h2>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <div class="service-summary">
+                  <p>
+                    Ofrezco soluciones de software robustas y escalables
+                    utilizando tecnologías modernas y mejores prácticas de
+                    desarrollo. Especializado en aplicaciones empresariales con
+                    Java y desarrollo web.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Servicios</h2>
-        <p>Soluciones profesionales de desarrollo de software a medida para tus necesidades tecnológicas</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="service-header">
-          <div class="row align-items-center">
-            <div class="col-lg-8 col-md-12">
-              <div class="service-intro">
-                <h2 class="service-heading">
-                  <div>Soluciones de desarrollo</div>
-                  <div><span>profesionales en Java</span></div>
-                </h2>
+          <div class="row justify-content-center">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-card position-relative z-1">
+                <div class="service-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <a
+                  href="#"
+                  class="card-action d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <h3>
+                  <a href="#"> Desarrollo <span>Java</span> </a>
+                </h3>
+                <p>
+                  Desarrollo de aplicaciones empresariales robustas y escalables
+                  utilizando Java, Spring Boot y Hibernate. Creación de APIs
+                  RESTful y servicios backend de alto rendimiento.
+                </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-12">
-              <div class="service-summary">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-card position-relative z-1">
+                <div class="service-icon">
+                  <i class="bi bi-database"></i>
+                </div>
+                <a
+                  href="#"
+                  class="card-action d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <h3>
+                  <a href="#"> Bases de <span>Datos</span> </a>
+                </h3>
                 <p>
-                  Ofrezco soluciones de software robustas y escalables utilizando tecnologías modernas y mejores prácticas de desarrollo. Especializado en aplicaciones empresariales con Java y desarrollo web.
+                  Diseño e implementación de bases de datos relacionales.
+                  Optimización de consultas SQL y manejo eficiente de datos.
+                  Experiencia con MySQL, PostgreSQL y SQL Server.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-card position-relative z-1">
+                <div class="service-icon">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <a
+                  href="#"
+                  class="card-action d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <h3>
+                  <a href="#"> Desarrollo <span>Web</span> </a>
+                </h3>
+                <p>
+                  Creación de sitios web responsivos y aplicaciones web modernas
+                  utilizando HTML5, CSS3, JavaScript y frameworks como
+                  Bootstrap. Experiencia en desarrollo frontend y backend.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-card position-relative z-1">
+                <div class="service-icon">
+                  <i class="bi bi-git"></i>
+                </div>
+                <a
+                  href="#"
+                  class="card-action d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <h3>
+                  <a href="#"> Control de <span>Versiones</span> </a>
+                </h3>
+                <p>
+                  Manejo de control de versiones con Git y plataformas como
+                  GitHub. Trabajo colaborativo siguiendo metodologías ágiles y
+                  buenas prácticas de desarrollo de software.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-card position-relative z-1">
+                <div class="service-icon">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <a
+                  href="#"
+                  class="card-action d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <h3>
+                  <a href="#"> Seguridad <span>Informática</span> </a>
+                </h3>
+                <p>
+                  Conocimientos en seguridad informática, incluyendo prácticas
+                  seguras de desarrollo, manejo de vulnerabilidades y protección
+                  de datos personales según normativas vigentes.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-card position-relative z-1">
+                <div class="service-icon">
+                  <i class="bi bi-lightbulb"></i>
+                </div>
+                <a
+                  href="#"
+                  class="card-action d-flex align-items-center justify-content-center rounded-circle"
+                >
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <h3>
+                  <a href="#"> Soluciones <span>Personalizadas</span> </a>
+                </h3>
+                <p>
+                  Desarrollo de soluciones a medida que se adaptan a las
+                  necesidades específicas de cada cliente, asegurando altos
+                  estándares de calidad y rendimiento.
                 </p>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Services Section -->
 
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-code-slash"></i>
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contacto</h2>
+          <p>
+            ¡Estoy disponible para oportunidades profesionales y proyectos
+            interesantes! No dudes en contactarme.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row g-4 g-lg-5">
+            <div class="col-lg-5">
+              <div class="info-box">
+                <h3>Información de Contacto</h3>
+                <p>
+                  Estoy disponible para discutir oportunidades profesionales y
+                  proyectos interesantes. No dudes en contactarme.
+                </p>
+
+                <div class="info-item">
+                  <div class="icon-box">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Ubicación</h4>
+                    <p>Actopan, Hidalgo</p>
+                    <p>México</p>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="icon-box">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Correo Electrónico</h4>
+                    <p>lugoangel938@gmail.com</p>
+                  </div>
+                </div>
               </div>
-              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="#">
-                  Desarrollo <span>Java</span>
-                </a>
-              </h3>
-              <p>
-                Desarrollo de aplicaciones empresariales robustas y escalables utilizando Java, Spring Boot y Hibernate. Creación de APIs RESTful y servicios backend de alto rendimiento.
-              </p>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-database"></i>
+
+            <div class="col-lg-7">
+              <div class="contact-form">
+                <h3>Contáctame</h3>
+                <p>
+                  ¿Tienes alguna pregunta o proyecto en mente? Envíame un
+                  mensaje y me pondré en contacto contigo lo antes posible.
+                </p>
+
+                <form
+                  action="forms/contact.php"
+                  method="post"
+                  class="php-email-form"
+                >
+                  <div class="row gy-4">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="Tu Nombre"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        placeholder="Tu Correo Electrónico"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        placeholder="Asunto"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-12">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="6"
+                        placeholder="Mensaje"
+                        required=""
+                      ></textarea>
+                    </div>
+
+                    <div class="col-12 text-center">
+                      <div class="loading">Cargando</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Tu mensaje ha sido enviado. ¡Gracias!
+                      </div>
+
+                      <button type="submit" class="btn">Enviar Mensaje</button>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="#">
-                  Bases de <span>Datos</span>
-                </a>
-              </h3>
-              <p>
-                Diseño e implementación de bases de datos relacionales. Optimización de consultas SQL y manejo eficiente de datos. Experiencia con MySQL, PostgreSQL y SQL Server.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-globe"></i>
-              </div>
-              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="#">
-                  Desarrollo <span>Web</span>
-                </a>
-              </h3>
-              <p>
-                Creación de sitios web responsivos y aplicaciones web modernas utilizando HTML5, CSS3, JavaScript y frameworks como Bootstrap. Experiencia en desarrollo frontend y backend.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-git"></i>
-              </div>
-              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="#">
-                  Control de <span>Versiones</span>
-                </a>
-              </h3>
-              <p>
-                Manejo de control de versiones con Git y plataformas como GitHub. Trabajo colaborativo siguiendo metodologías ágiles y buenas prácticas de desarrollo de software.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="#">
-                  Seguridad <span>Informática</span>
-                </a>
-              </h3>
-              <p>
-                Conocimientos en seguridad informática, incluyendo prácticas seguras de desarrollo, manejo de vulnerabilidades y protección de datos personales según normativas vigentes.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card position-relative z-1">
-              <div class="service-icon">
-                <i class="bi bi-lightbulb"></i>
-              </div>
-              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                <i class="bi bi-arrow-up-right"></i>
-              </a>
-              <h3>
-                <a href="#">
-                  Soluciones <span>Personalizadas</span>
-                </a>
-              </h3>
-              <p>
-                Desarrollo de soluciones a medida que se adaptan a las necesidades específicas de cada cliente, asegurando altos estándares de calidad y rendimiento.
-              </p>
             </div>
           </div>
         </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
 
-      </div>
-
-    </section><!-- /Services Section -->
-
-    
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contacto</h2>
-        <p>¡Estoy disponible para oportunidades profesionales y proyectos interesantes! No dudes en contactarme.</p>
-      </div><!-- End Section Title -->
-
+    <footer id="footer" class="footer position-relative">
       <div class="container">
-
-        <div class="row g-4 g-lg-5">
-          <div class="col-lg-5">
-            <div class="info-box">
-              <h3>Información de Contacto</h3>
-              <p>Estoy disponible para discutir oportunidades profesionales y proyectos interesantes. No dudes en contactarme.</p>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="content">
-                  <h4>Ubicación</h4>
-                  <p>Actopan, Hidalgo</p>
-                  <p>México</p>
-                </div>
-              </div>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="content">
-                  <h4>Correo Electrónico</h4>
-                  <p>angellugolopez2003@gmail.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="contact-form">
-              <h3>Contáctame</h3>
-              <p>¿Tienes alguna pregunta o proyecto en mente? Envíame un mensaje y me pondré en contacto contigo lo antes posible.</p>
-
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required="">
-                  </div>
-
-                  <div class="col-md-6">
-                    <input type="email" class="form-control" name="email" placeholder="Tu Correo Electrónico" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Asunto" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <div class="loading">Cargando</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
-
-                    <button type="submit" class="btn">Enviar Mensaje</button>
-                  </div>
-
-                </div>
-              </form>
-
-            </div>
-          </div>
-
+        <div class="copyright text-center">
+          <p>
+            © <span>Copyright</span>
+            <strong class="px-1 sitename">iPortfolio</strong>
+            <span>All Rights Reserved</span>
+          </p>
         </div>
-
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
+    </footer>
 
-    </section><!-- /Contact Section -->
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  </main>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <footer id="footer" class="footer position-relative">
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
